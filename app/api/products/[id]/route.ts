@@ -19,6 +19,6 @@ export async function GET(request: NextRequest, {params} : {params:Params}){
         status : 200,
         headers: {
             'Content-Type' : 'application/json',
-        }
+        },
     })
 }
