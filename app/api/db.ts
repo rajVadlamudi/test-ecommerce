@@ -1,6 +1,5 @@
 
 import { MongoClient, Db, ServerApiVersion } from 'mongodb';
-// const uri = "mongodb+srv://ramakrishnapondicherry2:<db_password>@cluster0.lozr0.mongodb.net/?appName=Cluster0";
 
 let cachedClient:MongoClient | null  = null
 let cachedDb:Db | null = null
